@@ -5,28 +5,150 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <title>Nacionalidad española 2026 — Requisitos, proceso, prueba CCSE, preguntas gratis</title>
-  <meta name="description" content="Nacionalidad española en 2026: requisitos por residencia, proceso paso a paso, detalles de la prueba CCSE y preguntas tipo test gratuitas. Preparación completa en PruebaCCSE.com." />
+  <meta name="description" content="Nacionalidad española en 2026: requisitos por residencia, proceso paso a paso, detalles de las pruebas DELE A2 y CCSE, y preguntas tipo test gratuitas. Prepárate en DeleA2.org (DELE A2 + CCSE, 69 €) o en PruebaCCSE.com (solo CCSE, 9 €)." />
   <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1" />
   <link rel="canonical" href="https://nacionalidadespanola.com/" />
 
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="es_ES" />
-  <meta property="og:title" content="Nacionalidad española 2026 — Requisitos y prueba CCSE" />
-  <meta property="og:description" content="Guía completa 2026: requisitos de nacionalidad española, proceso de solicitud, examen CCSE y preguntas gratuitas." />
+  <meta property="og:title" content="Nacionalidad española 2026 — Requisitos, DELE A2 y CCSE" />
+  <meta property="og:description" content="Guía completa 2026: requisitos de nacionalidad española, proceso de solicitud, exámenes DELE A2 y CCSE, y preguntas gratuitas." />
   <meta property="og:url" content="https://nacionalidadespanola.com/" />
   <meta property="og:site_name" content="Nacionalidad española 2026" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Nacionalidad española 2026 — Requisitos y CCSE" />
-  <meta name="twitter:description" content="Requisitos, proceso y prueba CCSE 2026. Ejemplos de preguntas y preparación completa." />
+  <meta name="twitter:title" content="Nacionalidad española 2026 — DELE A2 y CCSE" />
+  <meta name="twitter:description" content="Requisitos, proceso, exámenes DELE A2 y CCSE 2026. Ejemplos de preguntas y preparación completa." />
 
   <meta name="theme-color" content="#0b1220" />
   <meta name="color-scheme" content="light dark" />
 
   <!-- Shared styles (already present at root) -->
   <link rel="stylesheet" href="/styles.css" />
+
+  <style>
+    /* ===== TWO-PRODUCT PICKER (HERO) ===== */
+    .product-picker {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.4rem;
+      margin: 1.8rem 0 1.2rem;
+    }
+    @media (max-width: 720px) {
+      .product-picker {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+      }
+    }
+    .product-option {
+      background: #fff;
+      border-radius: 16px;
+      padding: 1.7rem 1.6rem 1.5rem;
+      border: 1px solid #e6e8ef;
+      box-shadow: 0 10px 28px rgba(0, 0, 0, 0.06);
+      display: flex;
+      flex-direction: column;
+    }
+    .product-option--dele {
+      border-top: 5px solid #c41e3a;
+    }
+    .product-option--ccse {
+      border-top: 5px solid #f4a72c;
+    }
+    .product-option-tag {
+      display: inline-block;
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      margin-bottom: 0.7rem;
+    }
+    .product-option--dele .product-option-tag { color: #aa151b; }
+    .product-option--ccse .product-option-tag { color: #a06d0a; }
+    .product-option-title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin: 0 0 0.4rem;
+      color: #0f172a;
+      line-height: 1.2;
+    }
+    .product-option-price {
+      font-size: 1rem;
+      color: #334155;
+      margin-bottom: 1rem;
+    }
+    .product-option-price strong {
+      font-size: 1.55rem;
+      color: #0f172a;
+    }
+    .product-option-desc {
+      font-size: 0.93rem;
+      line-height: 1.55;
+      color: #334155;
+      margin: 0 0 1rem;
+    }
+    .product-option-list {
+      margin: 0 0 1.3rem;
+      padding-left: 1.15rem;
+      font-size: 0.9rem;
+      line-height: 1.5;
+      color: #475569;
+    }
+    .product-option-list li {
+      margin-bottom: 0.3rem;
+    }
+    .product-option-cta {
+      display: inline-block;
+      text-align: center;
+      text-decoration: none;
+      font-weight: 600;
+      padding: 0.85rem 1.4rem;
+      border-radius: 10px;
+      font-size: 0.95rem;
+      transition: background 0.2s, transform 0.2s;
+      margin-top: auto;
+    }
+    .product-option--dele .product-option-cta {
+      background: #c41e3a;
+      color: #fff;
+    }
+    .product-option--dele .product-option-cta:hover {
+      background: #aa151b;
+    }
+    .product-option--ccse .product-option-cta {
+      background: #fff;
+      color: #a06d0a;
+      border: 2px solid #f4a72c;
+    }
+    .product-option--ccse .product-option-cta:hover {
+      background: #fff8e1;
+    }
+
+    /* Quick summary strip after hero */
+    .quick-summary-strip {
+      background: #f8fafc;
+      border-radius: 12px;
+      padding: 1.2rem 1.5rem;
+      margin: 1.5rem 0 2rem;
+      border-left: 4px solid #94a3b8;
+    }
+    .quick-summary-strip h2 {
+      font-size: 1.05rem;
+      font-weight: 700;
+      margin: 0 0 0.6rem;
+      color: #0f172a;
+    }
+    .quick-summary-strip ul {
+      margin: 0;
+      padding-left: 1.2rem;
+      font-size: 0.92rem;
+      line-height: 1.55;
+      color: #334155;
+    }
+    .quick-summary-strip li { margin-bottom: 0.25rem; }
+  </style>
 
   <!-- FAQ schema -->
   <script type="application/ld+json">
@@ -65,6 +187,14 @@
           "@type":"Answer",
           "text":"Sí. En 2026, la forma más eficaz de prepararse es practicar con bancos de preguntas y simulacros de examen similares al formato oficial."
         }
+      },
+      {
+        "@type":"Question",
+        "name":"¿Necesito preparar DELE A2 y CCSE, o solo CCSE?",
+        "acceptedAnswer":{
+          "@type":"Answer",
+          "text":"La mayoría de candidatos a la nacionalidad española debe aprobar ambas pruebas (DELE A2 y CCSE). Solo necesitas el CCSE si estás exento del DELE A2: nacionales de países hispanohablantes, personas que han cursado estudios oficiales en España, candidatos que ya tienen un diploma DELE A2 (o superior) en vigor, o exenciones reconocidas por discapacidad. Para ambas pruebas, DeleA2.org incluye preparación de DELE A2 y CCSE por 69 €. Para solo CCSE, PruebaCCSE.com cuesta 9 €."
+        }
       }
     ]
   }
@@ -91,7 +221,7 @@
           <a href="#examen">Prueba CCSE</a>
           <a href="#questions">Preguntas gratis</a>
           <a href="#faq">FAQ</a>
-          <a class="cta-mini" href="https://pruebaccse.com/" rel="noopener">Preparación completa</a>
+          <a class="cta-mini" href="https://delea2.org/" rel="noopener" target="_blank">Preparación completa</a>
         </nav>
       </div>
     </div>
@@ -106,55 +236,68 @@
         <h1>Nacionalidad española en 2026: requisitos, proceso, prueba CCSE y ejemplos</h1>
         <p class="lead">
           Esta página explica de forma clara cómo <strong>obtener la nacionalidad española en 2026</strong>:
-          requisitos legales, pasos de la solicitud, detalles de la <strong>prueba CCSE</strong> y
-          <strong>preguntas tipo test gratuitas</strong>. Para una preparación completa con simulacros,
-          accede a <strong><a href="https://pruebaccse.com/" rel="noopener">PruebaCCSE.com</a></strong>.
+          requisitos legales, pasos de la solicitud y detalles de las <strong>dos pruebas obligatorias —
+          DELE A2 y CCSE</strong>. Elige abajo qué preparación necesitas según tu situación.
         </p>
 
-        <div class="hero-grid">
-          <div class="card">
-            <div class="card-inner">
-              <div class="pill-row">
-                <span class="pill"><b>2026</b> información actualizada</span>
-                <span class="pill"><b>CCSE</b> test oficial</span>
-                <span class="pill"><b>Objetivo</b> aprobar a la primera</span>
-              </div>
+        <!-- TWO-PRODUCT PICKER -->
+        <div class="product-picker">
 
-              <div class="actions">
-                <a class="btn primary" href="https://pruebaccse.com/" rel="noopener">
-                  <span class="icon" aria-hidden="true"></span>
-                  Acceso a la preparación completa
-                </a>
-                <a class="btn" href="#questions">
-                  <span class="icon" aria-hidden="true"></span>
-                  Ver preguntas gratuitas
-                </a>
-                <a class="btn" href="#conditions">
-                  <span class="icon" aria-hidden="true"></span>
-                  Ver requisitos 2026
-                </a>
-              </div>
-
-              <p class="note">
-                Página informativa orientada a 2026. No sustituye las fuentes oficiales del Ministerio de Justicia ni del Instituto Cervantes.
-              </p>
-            </div>
+          <div class="product-option product-option--dele">
+            <div class="product-option-tag">Para la mayoría de candidatos</div>
+            <h2 class="product-option-title">DELE A2 + CCSE</h2>
+            <div class="product-option-price"><strong>69 €</strong> · pago único</div>
+            <p class="product-option-desc">
+              Si necesitas <strong>las dos pruebas</strong> para tu expediente. Una sola plataforma
+              prepara tanto el DELE A2 (examen oficial de idioma) como el CCSE (conocimientos
+              constitucionales y socioculturales).
+            </p>
+            <ul class="product-option-list">
+              <li>10 simulaciones DELE A2 con evaluación por IA</li>
+              <li>Banco completo de preguntas CCSE incluido</li>
+              <li>Acceso de por vida — sin suscripción</li>
+            </ul>
+            <a class="product-option-cta" href="https://delea2.org/" target="_blank" rel="noopener">
+              Ver DeleA2.org →
+            </a>
           </div>
 
-          <aside class="mini sidebox">
-            <h2>Resumen rápido (2026)</h2>
-            <ul>
-              <li>Residencia legal continuada en España (plazo general: <strong>10 años</strong>).</li>
-              <li>Buena conducta cívica e integración.</li>
-              <li>Aprobar <strong>CCSE</strong> (y <strong>DELE</strong> si procede).</li>
-              <li>Solicitud y resolución administrativa.</li>
-            </ul>
-            <p class="note">
-              Si te interesa sobre todo el examen, baja a <a href="#examen">Prueba CCSE</a>.
+          <div class="product-option product-option--ccse">
+            <div class="product-option-tag">Si solo necesitas el CCSE</div>
+            <h2 class="product-option-title">Solo CCSE</h2>
+            <div class="product-option-price"><strong>9 €</strong> · pago único</div>
+            <p class="product-option-desc">
+              Si <strong>estás exento del DELE A2</strong>: nacionales de países hispanohablantes,
+              personas con estudios oficiales en España, candidatos que ya tienen un DELE A2 vigente
+              o exenciones reconocidas.
             </p>
-          </aside>
+            <ul class="product-option-list">
+              <li>Banco completo de preguntas CCSE</li>
+              <li>Simulacros con formato oficial</li>
+              <li>Acceso ilimitado</li>
+            </ul>
+            <a class="product-option-cta" href="https://pruebaccse.com/" target="_blank" rel="noopener">
+              Ver PruebaCCSE.com →
+            </a>
+          </div>
+
         </div>
+
+        <p class="note">
+          Página informativa orientada a 2026. No sustituye las fuentes oficiales del Ministerio de Justicia ni del Instituto Cervantes.
+        </p>
       </section>
+
+      <!-- QUICK SUMMARY STRIP (moved out of hero) -->
+      <aside class="quick-summary-strip" aria-label="Resumen rápido">
+        <h2>Resumen rápido (2026)</h2>
+        <ul>
+          <li>Residencia legal continuada en España (plazo general: <strong>10 años</strong>).</li>
+          <li>Buena conducta cívica e integración.</li>
+          <li>Aprobar <strong>CCSE</strong> (y <strong>DELE A2</strong> si procede).</li>
+          <li>Solicitud y resolución administrativa.</li>
+        </ul>
+      </aside>
 
       <!-- DEFINICIÓN -->
       <section id="definition">
@@ -287,9 +430,13 @@
             ayuda a reconocer el estilo del examen CCSE y responder con seguridad.
           </p>
           <div class="actions">
-            <a class="btn primary" href="https://pruebaccse.com/" rel="noopener">
+            <a class="btn primary" href="https://delea2.org/" rel="noopener" target="_blank">
               <span class="icon" aria-hidden="true"></span>
-              Entrenamiento completo CCSE
+              DELE A2 + CCSE (69 €)
+            </a>
+            <a class="btn" href="https://pruebaccse.com/" rel="noopener" target="_blank">
+              <span class="icon" aria-hidden="true"></span>
+              Solo CCSE (9 €)
             </a>
           </div>
         </div>
@@ -506,6 +653,27 @@
             Cada inscripción permite dos intentos. Si no se aprueba, es necesario volver a inscribirse.
           </p>
         </details>
+
+        <details>
+          <summary>¿Necesito preparar DELE A2 y CCSE, o solo CCSE?</summary>
+          <p>
+            La mayoría de candidatos a la nacionalidad española debe aprobar <strong>ambas pruebas</strong>.
+            Estás <strong>exento</strong> del DELE A2 si:
+          </p>
+          <ul>
+            <li>Eres nacional de un país hispanohablante (Argentina, Bolivia, Chile, Colombia, Costa Rica, Cuba, Ecuador, El Salvador, Guatemala, Guinea Ecuatorial, Honduras, México, Nicaragua, Panamá, Paraguay, Perú, República Dominicana, Uruguay o Venezuela).</li>
+            <li>Has cursado estudios oficiales en España (primaria, secundaria, FP o universidad).</li>
+            <li>Ya tienes un diploma DELE A2 o superior (no caduca).</li>
+            <li>Tienes una discapacidad reconocida que te exime del examen.</li>
+          </ul>
+          <p>
+            Si <strong>encajas en alguno de esos casos</strong>, solo necesitas la prueba CCSE —
+            <a href="https://pruebaccse.com/" rel="noopener" target="_blank">PruebaCCSE.com</a> (9 €).
+            Si <strong>no</strong> encajas en ninguno, necesitas las dos pruebas —
+            <a href="https://delea2.org/" rel="noopener" target="_blank">DeleA2.org</a> incluye
+            la preparación de ambas por 69 €.
+          </p>
+        </details>
       </section>
 
     </div>
@@ -519,7 +687,8 @@
           <span class="small">Guía informativa 2026</span>
         </div>
         <div>
-          <a href="https://pruebaccse.com/" rel="noopener"><strong>Preparación completa CCSE</strong></a>
+          <a href="https://delea2.org/" rel="noopener" target="_blank"><strong>DELE A2 + CCSE</strong></a> ·
+          <a href="https://pruebaccse.com/" rel="noopener" target="_blank">Solo CCSE</a>
         </div>
         <div>
           <a href="#conditions">Requisitos</a> ·
